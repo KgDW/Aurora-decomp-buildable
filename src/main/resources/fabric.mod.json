@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "aurora",
+  "version": "0.0.9",
+  "name": "Aurora",
+  "description": "Epik cheetos addon.",
+  "authors": [
+    "decompile by KgDWqwq"
+  ],
+  "contact": {
+    "repo": "https://github.com/KassuK1/BlackOut/",
+    "discord": "https://discord.com/invite/mmWz9Dz4Y9"
+  },
+  "icon": "assets/blackout/logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "kassuk.addon.aurora.BlackOut"
+    ]
+  },
+  "mixins": [
+    "aurora.json"
+  ],
+  "accessWidener": "aurora.accesswidener",
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=1.20.1",
+    "meteor-client": "*"
+  }
+}
